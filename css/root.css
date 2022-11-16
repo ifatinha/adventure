@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600;700&family=Roboto:wght@400;500;700&display=swap');
 
 /* Reset CSS e configurações */
 @import "base/minireset.min.css";
@@ -11,3 +11,6 @@
 @import "layout/header.css";
 @import "layout/main.css";
 @import "layout/sobre.css";
+@import "layout/habilidades.css";
+@import "layout/avaliacoes.css";
+@import "layout/contato.css";

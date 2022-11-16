@@ -1,0 +1,25 @@
+.contato {
+    background-image: url("/assets/images/adventure-bg-5.jpg");
+}
+
+.section__container {}
+
+.contato__form {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    text-align: left;
+    width: 100%;
+}
+
+.col--50 {
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.col--100 {
+    width: 100%;
+}
+
+@media screen and(max-width: 800px) {}

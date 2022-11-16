@@ -1,0 +1,62 @@
+.habilidades {
+    background-image: url("/assets/images/adventure-bg-3.jpg");
+}
+
+.habilidades__container {
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.habilidades--item {
+    flex: 1 1 550px;
+}
+
+.habilidades--item__desc {
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    justify-content: space-between;
+}
+
+.habilidades--item__desc p {
+    font-size: var(--fonte-15);
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.habilidades--item__desc span {
+    font-size: var(--fonte-11);
+    line-height: 18px;
+}
+
+.habilidades--item__nav {
+    background-color: rgba(255, 255, 255, 0.13);
+    height: 35px;
+    padding: 10px;
+    text-align: left;
+    width: 100%;
+}
+
+.habilidades--item__nav span {
+    background-color: rgba(255, 255, 255, 0.65);
+    display: inline-block;
+    height: 15px;
+}
+
+.habilidade--86 {
+    width: 86%;
+}
+
+.habilidade--92{
+    width: 92%;
+}
+
+.habilidade--98 {
+    width: 98%;
+}
+
+.habilidade--100 {
+    width: 100%;
+}

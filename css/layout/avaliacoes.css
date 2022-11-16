@@ -1,0 +1,66 @@
+.avaliacoes {
+    background-image: url("/assets/images/adventure-bg-4.jpg");
+}
+
+.avaliacoes__comentarios {
+    margin: 0 250px;
+    text-align: center;
+}
+
+.avaliacoes--comentario {
+    color: var(--white-01);
+    font-size: var(--fonte-20);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.avaliacoes--comentario span {
+    text-transform: uppercase;
+}
+
+.avaliacoes--img {
+    border-radius: 50%;
+    height: 100px;
+    margin-bottom: 20px;
+    width: 100px;
+}
+
+.avaliacoes--autor {
+    font-size: var(--fonte-15);
+    line-height: 22px;
+}
+
+.autor--desc {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: var(--fonte-11);
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.avaliacoes--btn {
+    background-color: var(--yellow-02);
+    border-radius: 2px;
+    border: 1px solid var(--yellow-02);
+    color: var(--white-01);
+    font-size: 20px;
+    display: inline-block;
+    height: 28px;
+    line-height: 26px;
+    margin: 20px 4px 30px;
+    text-align: center;
+    transition: .3s;
+    width: 28px;
+}
+
+.avaliacoes--btn:hover {
+    background-color: var(--black-01);
+    border: 1px solid var(--black-01);
+}
+
+@media screen and (max-width: 800px) {
+    .avaliacoes__comentarios {
+        margin: 0;
+    }
+}

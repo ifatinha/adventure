@@ -1,11 +1,63 @@
 .sobre {
-    align-items: center;
-    background: url("/assets/images/adventure-bg-2.jpg") no-repeat center;
-    background-attachment: fixed;
-    justify-content: center;
+    background-image: url("/assets/images/adventure-bg-2.jpg");
 }
 
-.sobre__container {
-    align-items: center;
-    flex-direction: column;
+.sobre--cards {
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.sobre--cards__card {
+    flex: 1 1 200px;
+    text-align: center;
+}
+
+.sobre--cards__btn {
+    background-color: rgba(255, 255, 255, 0.01);
+    border: 1px solid rgba(255, 255, 255, 0.28);
+    border-radius: 50%;
+    cursor: pointer;
+    display: inline-block;
+    font-size: var(--fonte-40);
+    height: 100px;
+    margin-bottom: 15px;
+    padding: 4px;
+    text-align: center;
+    width: 100px;
+}
+
+.sobre--cards__btn span {
+    border-radius: 50%;
+    display: inline-block;
+    height: 90px;
+    transition: all 0.15s ease 0s;
+    width: 90px;
+}
+
+.sobre--cards__btn i {
+    line-height: 50px;
+    padding: 20px;
+    text-align: center;
+}
+
+.sobre--cards__btn:hover span {
+    background-color: rgba(255, 255, 255, 0.22);
+    border-color: rgba(255, 255, 255, 0.22);
+}
+
+.card--titulo {
+    font-size: var(--fonte-18);
+    font-weight: normal;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+
+.card--paragrafo {
+    color: var(--white-02);
+    font-size: var(--fonte-13);
+    font-weight: 300;
+    line-height: 20px;
+    margin-bottom: 50px;
 }

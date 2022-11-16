@@ -25,9 +25,8 @@
                     <li><a href="#home" class="menu--desktop__item selecionado">Home</a></li>
                     <li><a href="#sobre" class="menu--desktop__item">Sobre</a></li>
                     <li><a href="#habilidades" class="menu--desktop__item">Habilidades</a></li>
-                    <li><a href="#testemunhos" class="menu--desktop__item">Testemunhos</a></li>
+                    <li><a href="#avaliacoes" class="menu--desktop__item">Avaliações</a></li>
                     <li><a href="#contato" class="menu--desktop__item">Contato</a></li>
-                    <li><a href="#reserve" class="menu--desktop__item">Reserve agora</a></li>
                 </ul>
             </nav>
 
@@ -37,9 +36,8 @@
                     <li><a href="#home" class="menu--mobile__item selecionado">Home</a></li>
                     <li><a href="#sobre" class="menu--mobile__item">Sobre</a></li>
                     <li><a href="#habilidades" class="menu--mobile__item">Habilidades</a></li>
-                    <li><a href="#testemunhos" class="menu--mobile__item">Testemunhos</a></li>
+                    <li><a href="#avaliacoes" class="menu--mobile__item">Avaliações</a></li>
                     <li><a href="#contato" class="menu--mobile__item">Contato</a></li>
-                    <li><a href="#reserve" class="menu--mobile__item">Reserve agora</a></li>
                 </ul>
             </nav>
         </div>
@@ -47,26 +45,25 @@
 
     <main id="home" class="flex main">
         <h1 class="main--titulo">Grandes aventuras começam aqui</h1>
-        <p class="main--paragrafo">Acenda a ideia de viver novas histórias</p>
-        <a href="#sobre" class="btn--redondo">
+        <p class="main--paragrafo">Acenda a ideia de viver novas histórias.</p>
+        <a href="#sobre" class="btn--redondo" aria-label="Próximo Seção">
             <span><i class="fa-sharp fa-solid fa-chevron-down"></i></span>
         </a>
     </main>
 
-    <section id="sobre" class="flex section sobre">
-        <div class="container flex sobre__container">
-            <div class="sobre--textos">
-                <h2>Excelentes serviços prestados</h2>
-                <p>porque é assim que nós trabalhamos</p>
-            </div>
+    <section id="sobre" class="section sobre">
+        <div class="container section__container">
+            <h2 class="section__titulo">Excelentes serviços prestados</h2>
+            <p class="section__paragrafo">Porque é assim que nós trabalhamos.</p>
             <div class="flex sobre--cards">
                 <div class="sobre--cards__card">
                     <div class="sobre--cards__btn">
                         <span><i class="fa-solid fa-map-location-dot"></i></span>
                     </div>
-                    <h3>Viagens e explorações de caverna</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec condimentum accumsan ligula, non
-                        commodo dolor varius vitae. Morbi dapibus neque a mauris sodales bibendum.
+                    <h3 class="card--titulo">Viagens e explorações de caverna</h3>
+                    <p class="card--paragrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                        condimentum accumsan ligula, non commodo dolor varius vitae. Morbi dapibus neque a mauris
+                        sodales bibendum.
                     </p>
                 </div>
 
@@ -74,9 +71,10 @@
                     <div class="sobre--cards__btn">
                         <span><i class="fa-solid fa-compass"></i></span>
                     </div>
-                    <h3>Passeios de Rafting</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec condimentum accumsan ligula, non
-                        commodo dolor varius vitae. Morbi dapibus neque a mauris sodales bibendum.
+                    <h3 class="card--titulo">Passeios de Rafting</h3>
+                    <p class="card--paragrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                        condimentum accumsan ligula, non commodo dolor varius vitae. Morbi dapibus neque a mauris
+                        sodales bibendum.
                     </p>
                 </div>
 
@@ -84,16 +82,120 @@
                     <div class="sobre--cards__btn">
                         <span><i class="fa-solid fa-water"></i></span>
                     </div>
-                    <h3>Viagens e explorações de caverna</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec condimentum accumsan ligula, non
-                        commodo dolor varius vitae. Morbi dapibus neque a mauris sodales bibendum.
+                    <h3 class="card--titulo">Viagens e explorações de caverna</h3>
+                    <p class="card--paragrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                        condimentum accumsan ligula, non commodo dolor varius vitae. Morbi dapibus neque a mauris
+                        sodales bibendum.
                     </p>
                 </div>
             </div>
 
-            <a href="#sobre" class="btn--redondo">
+            <a href="#habilidades" class="btn--redondo" aria-label="Próximo Seção">
                 <span><i class="fa-sharp fa-solid fa-chevron-down"></i></span>
             </a>
+        </div>
+    </section>
+
+    <section id="habilidades" class="section habilidades">
+        <div class="container section__container">
+            <h2 class="section__titulo">Nós temos um conjunto de habilidades</h2>
+            <p class="section__paragrafo">Você estará em boas mãos.</p>
+
+            <div class="flex habilidades__container">
+                <div class="habilidades--item">
+                    <div class="flex habilidades--item__desc">
+                        <p>Corredeiras de água branca classe 5</p>
+                        <span>86%</span>
+                    </div>
+                    <div class="habilidades--item__nav">
+                        <span class="habilidade--86"></span>
+                    </div>
+                </div>
+                <div class="habilidades--item">
+                    <div class="flex habilidades--item__desc">
+                        <p>Caminhada e exploração do sertão</p>
+                        <span>92%</span>
+                    </div>
+                    <div class="habilidades--item__nav">
+                        <span class="habilidade--92"></span>
+                    </div>
+                </div>
+                <div class="habilidades--item">
+                    <div class="flex habilidades--item__desc">
+                        <p>Alpinismo e repelimento</p>
+                        <span>98%</span>
+                    </div>
+                    <div class="habilidades--item__nav">
+                        <span class="habilidade--98"></span>
+                    </div>
+                </div>
+                <div class="habilidades--item">
+                    <div class="flex habilidades--item__desc">
+                        <p>Experiência de aviação</p>
+                        <span>100%</span>
+                    </div>
+                    <div class="habilidades--item__nav">
+                        <span class="habilidade--100"></span>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#avaliacoes" class="btn--redondo" aria-label="Próximo Seção">
+                <span><i class="fa-sharp fa-solid fa-chevron-down"></i></span>
+            </a>
+        </div>
+    </section>
+
+    <section id="avaliacoes" class="section avaliacoes">
+        <div class="container section__container">
+            <h2 class="section__titulo">Nossas avaliações de clientes</h2>
+            <p class="section__paragrafo">Não acredite apenas em nossa palavra.</p>
+
+            <div class="avaliacoes__comentarios">
+                <p class="avaliacoes--comentario">
+                    Foi a melhor experiência indo para o interior para ter a chance de ver algumas paisagens e animais
+                    incríveis. <span>Você é demais!!!</span>
+                </p>
+                <img class="avaliacoes--img" src="assets/images/profile-bg.jpeg" alt="Profile Image" width="100"
+                    height="100">
+                <p class="avaliacoes--autor">Susan Wright</p>
+                <span class="autor--desc">Fotógrafa</span>
+            </div>
+
+            <div class="avaliacoes__btns">
+                <a href="./" class="avaliacoes--btn" aria-label="Próximo comentário"><i
+                        class="fa-solid fa-angle-left"></i></a>
+                <a href="./" class="avaliacoes--btn" aria-label="Próximo comentário"><i
+                        class="fa-solid fa-angle-right"></i></a>
+            </div>
+
+            <a href="#contato" class="btn--redondo" aria-label="Próximo Seção">
+                <span><i class="fa-sharp fa-solid fa-chevron-down"></i></span>
+            </a>
+        </div>
+    </section>
+
+    <section id="contato" class="section contato">
+        <div class="container section__container">
+            <h2 class="section__titulo">Nós adorariamos ouvir você</h2>
+            <p class="section__paragrafo">Prepare-se para uma aventura inesquecível!.</p>
+
+            <form action="#" class="flex contato__form">
+                <div class="flex col--50">
+                    <div class="form--item col--50">
+                        <label for="nome">Seu nome (obrigatório)</label>
+                        <input type="text" name="nome" id="nome" required>
+                    </div>
+                    <div class="form--item col--50">
+                        <label for="email">Seu e-mail (obrigatório)</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                </div>
+                <div class="form--item col--100">
+                    <label for="mensagem">Seu mensagem (obrigatório)</label>
+                    <textarea name="mensagem" id="mensagem" cols="40" rows="10" required></textarea>
+                </div>
+            </form>
         </div>
     </section>
 </body>

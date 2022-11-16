@@ -1,9 +1,8 @@
 .main {
     align-items: center;
-    background: url("/assets/images/adventure-bg-1.jpg") no-repeat;
-    background-position: 50% -210px;
-    background-attachment: fixed;
+    background-image: url("/assets/images/adventure-bg-1.jpg");
     background-position: center;
+    background-attachment: fixed;
     background-size: cover;
     flex-direction: column;
     height: 100%;
@@ -11,12 +10,15 @@
     padding: 0 2%;
     word-wrap: break-word;
     width: 100%;
+    z-index: -1;
 }
 
 .main--titulo {
     color: var(--white-01);
     font-size: var(--fonte-70);
+    font-weight: 100;
     line-height: 75px;
+    margin-top: 150px;
     text-align: center;
 }
 

@@ -11,6 +11,8 @@
 .btn--redondo {
     border-radius: 50%;
     border: 1px solid rgba(255, 255, 255, 0.28);
+    cursor: pointer;
+    display: inline-block;
     height: 78px;
     padding: 3px;
     text-align: center;
@@ -37,9 +39,38 @@
 }
 
 .section {
+    background-attachment: fixed;
     background-size: cover;
-    background-position: 50% -6px;
+    background-position: center;
     color: rgb(242, 242, 242);
-    height: 100%;
+    min-height: 100%;
+    transition: .3s;
     width: 100%;
+}
+
+.section__container {
+    text-align: center;
+    padding: 110px 2%;
+}
+
+.section__titulo {
+    font-size: var(--fonte-50);
+    font-weight: 100;
+    line-height: 55px;
+    margin-bottom: 10px;
+}
+
+.section__paragrafo {
+    color: rgba(255, 255, 255, 0.7);
+    font-family: 'Raleway', sans-serif;
+    font-size: var(--fonte-18);
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 800px) {
+    .section {
+        height: auto;
+        padding: 10px 2%;
+    }
 }
