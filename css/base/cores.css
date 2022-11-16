@@ -1,5 +1,7 @@
---root {
+:root {
+    --black-01: #292929;
     --yellow-01: #fa8322;
     --white-01: #ffffff;
     --gray-01: #868686;
+    --gray-02: #777777;
 }

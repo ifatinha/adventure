@@ -3,5 +3,9 @@
 /* Reset CSS e configurações */
 @import "base/minireset.min.css";
 @import "base/base.css";
+@import "base/global.css";
 @import "base/cores.css";
 @import "base/fontes.css";
+
+/* Layout */
+@import "layout/header.css";
