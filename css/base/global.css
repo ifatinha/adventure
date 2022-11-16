@@ -9,5 +9,37 @@
 }
 
 .btn--redondo {
-    
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.28);
+    height: 78px;
+    padding: 3px;
+    text-align: center;
+    width: 78px;
+}
+
+.btn--redondo span {
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.22);
+    border-color: rgba(255, 255, 255, 0.22);
+    color: var(--white-01);
+    cursor: pointer;
+    display: inline-block;
+    font-size: var(--fonte-35);
+    font-weight: normal;
+    height: 70px;
+    line-height: 70px;
+    transition: all .2s ease-in-out;
+    width: 70px;
+}
+
+.btn--redondo span:hover {
+    background-color: rgba(255, 255, 255, 0.32);
+}
+
+.section {
+    background-size: cover;
+    background-position: 50% -6px;
+    color: rgb(242, 242, 242);
+    height: 100%;
+    width: 100%;
 }

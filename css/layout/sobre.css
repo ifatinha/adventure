@@ -1,0 +1,11 @@
+.sobre {
+    align-items: center;
+    background: url("/assets/images/adventure-bg-2.jpg") no-repeat center;
+    background-attachment: fixed;
+    justify-content: center;
+}
+
+.sobre__container {
+    align-items: center;
+    flex-direction: column;
+}

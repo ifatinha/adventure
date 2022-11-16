@@ -1,6 +1,7 @@
 .main {
     align-items: center;
-    background: url("/assets/images/adventure-bg-1.jpg") no-repeat center;
+    background: url("/assets/images/adventure-bg-1.jpg") no-repeat;
+    background-position: 50% -210px;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -14,15 +15,13 @@
 
 .main--titulo {
     color: var(--white-01);
-    font-family: 'Raleway', sans-serif;
     font-size: var(--fonte-70);
     line-height: 75px;
-    
     text-align: center;
 }
 
 .main--paragrafo {
-    color: rgba(255,255,255,0.7);
+    color: rgba(255, 255, 255, 0.7);
     font-family: 'Raleway', sans-serif;
     font-size: var(--fonte-18);
     line-height: 25px;
@@ -31,7 +30,7 @@
 }
 
 @media screen and (max-width: 800px) {
-    .main--titulo{
+    .main--titulo {
         font-size: var(--fonte-40);
         line-height: 50px;
         margin-bottom: 10px;
