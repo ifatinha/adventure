@@ -1,11 +1,14 @@
+.header__bg {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    position: absolute;
+    width: 100%;
+}
+
 .header {
     align-items: center;
-    background-color: transparent;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 30px 2%;
-    position: relative;
+    padding: 20px 2%;
     width: 100%;
     z-index: 9;
 }
@@ -25,7 +28,7 @@
 }
 
 .menu--desktop__item {
-    color: var(--gray-01);
+    color: var(--white-01);
     display: inline-block;
     font-size: var(--fonte-15);
     line-height: 50px;
@@ -47,7 +50,7 @@ a.selecionado {
 }
 
 .header__mobile i {
-    color: var(--yellow-01);
+    color: var(--white-01);
     font-size: var(--fonte-35);
 }
 

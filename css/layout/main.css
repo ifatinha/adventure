@@ -1,0 +1,39 @@
+.main {
+    align-items: center;
+    background: url("/assets/images/adventure-bg-1.jpg") no-repeat center;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    padding: 0 2%;
+    word-wrap: break-word;
+    width: 100%;
+}
+
+.main--titulo {
+    color: var(--white-01);
+    font-family: 'Raleway', sans-serif;
+    font-size: var(--fonte-70);
+    line-height: 75px;
+    
+    text-align: center;
+}
+
+.main--paragrafo {
+    color: rgba(255,255,255,0.7);
+    font-family: 'Raleway', sans-serif;
+    font-size: var(--fonte-18);
+    line-height: 25px;
+    margin-bottom: 55px;
+    text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+    .main--titulo{
+        font-size: var(--fonte-40);
+        line-height: 50px;
+        margin-bottom: 10px;
+    }
+}
