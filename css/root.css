@@ -14,3 +14,6 @@
 @import "layout/habilidades.css";
 @import "layout/avaliacoes.css";
 @import "layout/contato.css";
+
+/* Module */
+@import "module/linha.css";
