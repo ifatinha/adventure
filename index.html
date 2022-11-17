@@ -9,7 +9,7 @@
     <meta name="keywords" content="aventura, floresta, animais, viagem, trilhas">
     <meta name="author" content="Fatima Ferreira">
 
-    <link rel="stylesheet" href="css/root.css">
+    <link rel="stylesheet" href="css/root.min.css">
     <title>907 Adventure</title>
 </head>
 
@@ -180,22 +180,44 @@
             <h2 class="section__titulo">Nós adorariamos ouvir você</h2>
             <p class="section__paragrafo">Prepare-se para uma aventura inesquecível!.</p>
 
-            <form action="#" class="flex contato__form">
-                <div class="flex col--50">
-                    <div class="form--item col--50">
+            <form action="#" class="contato__form">
+                <div class="flex form--item">
+                    <div class="form--input">
                         <label for="nome">Seu nome (obrigatório)</label>
                         <input type="text" name="nome" id="nome" required>
                     </div>
-                    <div class="form--item col--50">
+                    <div class="form--input">
                         <label for="email">Seu e-mail (obrigatório)</label>
                         <input type="email" name="email" id="email" required>
                     </div>
                 </div>
-                <div class="form--item col--100">
+                <div class="form--item">
                     <label for="mensagem">Seu mensagem (obrigatório)</label>
-                    <textarea name="mensagem" id="mensagem" cols="40" rows="10" required></textarea>
+                    <textarea name="mensagem" id="mensagem" cols="50" rows="10" required></textarea>
+                </div>
+                <div class="form--item">
+                    <a href="./" class="form--btn">Envie Agora!</a>
                 </div>
             </form>
+
+            <div class="linhas">
+                <hr class="hr--01">
+                <hr class="hr--02">
+                <hr class="hr--03">
+                <hr class="hr--04">
+                <hr class="hr--05">
+            </div>
+
+            <div class="flex contato__footer">
+                <p class="footer--paragrafo">&copy; 907 Adventure - todos os direitos reservados.</p>
+
+                <ul class="flex footer--icones">
+                    <li><a href="./" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="./" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="./" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="./" aria-label="Whatsapp"><i class="fa-brands fa-whatsapp"></i></a></li>
+                </ul>
+            </div>
         </div>
     </section>
 </body>
